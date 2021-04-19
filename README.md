@@ -1,4 +1,4 @@
-# MechaCar_Statistical_Analysis
+# MechaCar Statistical Analysis
 
 ## Linear Regression to Predict MPG 
 ![Linear Model](Resources/linear_model.png)
@@ -30,3 +30,9 @@
 - When reviewing the t-test for individual lots, we can see that only **lot 3 is statistically different** from the population mean because it has a p-value of 0.042. On the other hand, **lot 1 and lot 2 are not statistically different** from the population mean since their p-value is at 1 and 0.6072.
 
 ![Individual T-test](Resources/IndividualLots_TTest.png)
+
+## Study Design: MechaCar vs Competition
+- The statistical study that I would like to perform is comparing the maintenance cost of the MechaCar versus the competition.
+- The Null Hypothesis for this study is that there is no statistical difference between the mean maintenance cost of the MechaCar and its competitor. In other words, their average maintenance cost is similar to other manufacturers. On the other hand, the Alternative Hypothesis is there is a statistical difference in the mean maintenance cost the MechaCar and its competitor.
+- To achive it, I would perform the One Sample t-Test since the data type of the Independent variable is Dichotomous (MechaCar or the population-in this case is other brands), and we only have one Dependent variable, which is maintainance cost (Continuous Data Type). 
+- For the data required, first of all, I will get the average maintenance cost per year (that might include battery check, oil change, and/or brake pads replacement, etc.) for each brand (including MechaCar). Then, to increase the data size, I will get this data from all of the dealerships in the US, and the time range is from 2010 to 2020 (10 years).
